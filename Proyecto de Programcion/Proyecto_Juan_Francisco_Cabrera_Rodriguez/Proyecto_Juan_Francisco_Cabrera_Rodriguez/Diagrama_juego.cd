@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Proyecto_Juan_Francisco_Cabrera_Rodriguez.Behaviors.Movimiento_y_ataque_estándar" BaseTypeListCollapsed="true">
+    <Position X="19.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Comportamientos\Movimiento y ataque estandar .cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Proyecto_Juan_Francisco_Cabrera_Rodriguez.Core.Actor">
+    <Position X="19.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAKAAkAAIBBAEgCIAAkAQJAAAAAAAgAACggAIAYQA=</HashCode>
+      <FileName>Game_manager\Actor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Proyecto_Juan_Francisco_Cabrera_Rodriguez.Core.Color">
+    <Position X="21.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAIIJIIAAAARAgAAAhACAAAAEBAAg=</HashCode>
+      <FileName>Game_manager\Color.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proyecto_Juan_Francisco_Cabrera_Rodriguez.Core.Puerta" BaseTypeListCollapsed="true">
+    <Position X="21.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAEAAACAAAAAAAAAAAgAAAYAA=</HashCode>
+      <FileName>Game_manager\Puerta.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Proyecto_Juan_Francisco_Cabrera_Rodriguez.Core.MapaMazmorra">
+    <Position X="27" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAYCAEAAYAAgAQAAAAACQAIAEgAAwAAAAACAAEAAA=</HashCode>
+      <FileName>Game_manager\MapaMazmorra.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proyecto_Juan_Francisco_Cabrera_Rodriguez.Core.Monstruo">
+    <Position X="15.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAQAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Game_manager\Monstruo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proyecto_Juan_Francisco_Cabrera_Rodriguez.Core.Jugador">
+    <Position X="16.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game_manager\Jugador.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proyecto_Juan_Francisco_Cabrera_Rodriguez.Core.Escalera" BaseTypeListCollapsed="true">
+    <Position X="21.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAEAAAAAAAAAAAAAAAgAAAYAA=</HashCode>
+      <FileName>Game_manager\Escalera.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Proyecto_Juan_Francisco_Cabrera_Rodriguez.Core.Muestras">
+    <Position X="28.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYkAgFAAAIAEBGMBRgIAAAAACAAYACAAoEAAAACAAGE=</HashCode>
+      <FileName>Game_manager\Muestras.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proyecto_Juan_Francisco_Cabrera_Rodriguez.Juego">
+    <Position X="23.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BIAAAAAATAACAAAMAAACAAACAEQABAAIQgAEBgEBAgA=</HashCode>
+      <FileName>Juego.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proyecto_Juan_Francisco_Cabrera_Rodriguez.Monsters.Nomo">
+    <Position X="15.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Monstruos\Nomo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proyecto_Juan_Francisco_Cabrera_Rodriguez.Systems.Sistema_de_comando">
+    <Position X="25.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAwAAAAAIAACAAAAAAAAAIBAAAAQAAAAAQAAAQA=</HashCode>
+      <FileName>Sistemas\Sistema_de_comando.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Proyecto_Juan_Francisco_Cabrera_Rodriguez.Interfaces.IActor">
+    <Position X="23.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAEAAAAAAAgCAAAgAQIAAAAAAAgAACgAAAAAAA=</HashCode>
+      <FileName>Interfaces\IActor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Proyecto_Juan_Francisco_Cabrera_Rodriguez.Interfaces.Comportamiento">
+    <Position X="25.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Interfaces\Comportamiento.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Proyecto_Juan_Francisco_Cabrera_Rodriguez.Interfaces.IDibuja">
+    <Position X="27" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAgAAAYAA=</HashCode>
+      <FileName>Interfaces\IDibuja.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Proyecto_Juan_Francisco_Cabrera_Rodriguez.Interfaces.Iprogramable">
+    <Position X="25.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Interfaces\Iprogramable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Proyecto_Juan_Francisco_Cabrera_Rodriguez.Core.Direccion">
+    <Position X="25.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IBAAAAAQAggAAAAAAEAAAAAAAAAAAAAAARAAAAAEQAA=</HashCode>
+      <FileName>Game_manager\Direccion.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
